@@ -1,0 +1,58 @@
+
+
+body{
+    background-image: url("images/wal.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.trends .head{
+    text-align: center;
+    padding: 33px;
+    margin-top: 22px;
+}
+.head h2{
+    color: azure;
+}
+.head span{
+    
+    color: aqua;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+}
+.card .crd{
+    width: 300px;
+    height: 500px;
+    background-color: whitesmoke;
+    margin-inline: 11px;
+    
+}
+.crd img{
+    width: 85%;
+    padding: 22px;
+    height: 60%;
+    border-radius: 31px;
+}
+button{ position: absolute;
+    padding: 20px;
+    width: 295px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
+    background-color: grey;
+    justify-content: center;
+}
+.card .crd h2{
+    display: flex;
+    justify-content: center;
+}
+
