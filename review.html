@@ -12,16 +12,41 @@
             margin: 0;
             padding: 0;
         }
+        .head{
+    position: fixed;
+    top: 0%;
+    left: 0;
+    padding: 25px 12.5px;
+    background-color:transparent;
+    justify-content: space-between;
+    text-decoration: none;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+     z-index: 100;
+     display: flex;
+}
+.navbar a{
+    font-size: 16px;
+    color:  rgb(10, 11, 12);
+    margin-left: 30px;
+    border:none;
+    text-decoration: none;
+    font-weight: 500;
+}
 
         .container {
             width: 80%;
             margin: auto;
             overflow: hidden;
+            padding-top: 50px;
+            
         }
 
         h2 {
             text-align: center;
             color: #333;
+            padding-top: 50px;
         }
 
         .review-container {
@@ -71,9 +96,73 @@
             color: #999;
             font-size: 0.8rem;
         }
+
+        .content {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+      
+            
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-section {
+            flex: 1;
+            text-align: left;
+            padding: 0 20px;
+            margin-bottom: 20px;
+        }
+
+        .footer-section h2 {
+            color: #e44d26; /* Orange color for headings */
+        }
+
+        .footer-section a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 5px;
+            
+        }
+
+
+        .footer-social {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .social-icon {
+            margin: 0 10px;
+            color: #fff;
+            font-size: 24px;
+        }
+        
+
+
     </style>
 </head>
 <body>
+  <header class="head">
+    <nav class="navbar">
+        <a href="index.html" >Home</a>
+        <a href="about.html" >About</a>
+        <a href="product.html" >Product</a>
+        <a href="review.html" >Review</a>
+        <a href="mini.html" >Login</a>
+    </nav>
+</header>
 
     <div class="container">
         <h2>Customer Reviews</h2>
@@ -97,57 +186,29 @@
         </div>
     </div>
 
-</body>
-</html>
+    <footer>
+      <div class="footer-content">
+          <div class="footer-section">
+             
+              <a href="index.html">Home</a>
+              <a href="product.html">Products</a>
+              <a href="about.html">About us</a>
+          </div>
+          <div class="footer-section">
+             
+              <a href="#">Shipping & Returns</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms of Service</a>
+          </div>
+          <div class="footer-section">
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your E-commerce Website</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    /* Footer Styles */
-    footer {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-
-    /* Footer Links */
-    footer a {
-      color: #fff;
-      text-decoration: none;
-      margin: 0 10px;
-    }
-
-    /* Responsive Footer */
-    @media (max-width: 768px) {
-      footer {
-        padding: 20px 10px;
-      }
-    }
-  </style>
-</head>
-<body>
-
-
-  <footer>
-    <p>&copy; 2024 Your E-commerce Website</p>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Shop</a>
-      <a href="#">About Us</a>
-      
-    </nav>
+              <p>Email: maheensyeda2000@gmail</p>
+              <p>Phone: +9876345650</p>
+          </div>
+          
+      </div>
   </footer>
 
 </body>
 </html>
+

@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: serif;
+
 }
 .head{
     position: fixed;
@@ -20,7 +21,7 @@
 }
 .navbar a{
     font-size: 16px;
-    color:  gray;
+    color:grey;
     margin-left: 30px;
     border:none;
     text-decoration: none;
@@ -75,4 +76,54 @@
 .text p{
     font-size: 16px;
     margin: 20px 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+margin-top: 0;
+    
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    text-align: left;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.footer-section h2 {
+    color: #e44d26; /* Orange color for headings */
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-social {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 24px;
 }
